@@ -42,9 +42,9 @@ xkb_symbols "programmer" {
     key <AC09>	{ [         l      , L              , rightarrow   , NoSymbol ]	};
                   
     key <AC10>	{ [semicolon         , colon       , dollar       , NoSymbol ]	};
-    key <AC11>	{ [   ncaron       , exclam         , apostrophe   , ssharp ]	};
+    key <AC11>	{ [   apostrophe       , quotedbl         , apostrophe , NoSymbol ]	};
     key <AC12>	{ [  EuroSign      , dead_diaeresis , NoSymbol     , NoSymbol ]	};
-    key <BKSL>	{ [    backslash   , bar            , slash        , plusminus ]	};
+    key <BKSL>	{ [    ncaron   , bar            , backslash        , plusminus ]	};
 
     key <LSGT>	{ [ backslash  , bar            , slash                , NoSymbol ]	};
     key <AB01>	{ [         z  , Z              , doublelowquotemark   , NoSymbol ]	};
@@ -58,7 +58,7 @@ xkb_symbols "programmer" {
     key <AB09>	{ [    period  , greater        , guillemotright       , NoSymbol ]	};
     key <AB10>	{ [     slash  , question       , question             , NoSymbol ]	};
 
-    key <SPCE>  { [     space  , space          , nobreakspace         , nobreakspace ] };
+    key <SPCE>  { [     space  , space          , space         , space ] };
 
 
     include "level3(ralt_switch)"
