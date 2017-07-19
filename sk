@@ -32,8 +32,8 @@ xkb_symbols "programmer" {
     key <AD12>	{ [ bracketright   , braceright     , NoSymbol     , multiply ]	};
 
     key <AC01>	{ [         a      , A              , asciitilde   , NoSymbol ]	};
-    key <AC02>	{ [         s      , S              , dstroke      , NoSymbol ]	};
-    key <AC03>	{ [         d      , D              , Dstroke      , NoSymbol ]	};
+    key <AC02>	{ [         s      , S              , ssharp       , NoSymbol ]	};
+    key <AC03>	{ [         d      , D              , dcaron       , Dcaron		]	};
     key <AC04>	{ [         f      , F              , bracketleft  , NoSymbol ]	};
     key <AC05>	{ [         g      , G              , bracketright , NoSymbol ]	};
     key <AC06>	{ [         h      , H              , leftarrow    , NoSymbol ]	};
