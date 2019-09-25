@@ -1,0 +1,63 @@
+partial alphanumeric_keys
+xkb_symbols "sk-programmer" {
+
+  name[Group1] = "Slovak - Programmer";
+
+    key <TLDE>	{ [ ocircumflex, dead_abovering,    grave,   asciitilde ]	};
+    key <AE01>	{ [ adiaeresis,          1,       exclam,   dead_tilde ]	};
+    key <AE02>	{ [    lcaron,          2,           at,   dead_caron ]	};
+    key <AE03>	{ [    scaron,          3,   numbersign, dead_circumflex ] };
+    key <AE04>	{ [    ccaron,          4,       dollar,   dead_breve ]	};
+    key <AE05>	{ [    tcaron,          5,      percent, dead_abovering ] };
+    key <AE06>	{ [    zcaron,          6,  asciicircum,  dead_ogonek ]	};
+    key <AE07>	{ [    yacute,          7,    ampersand,   dead_grave ]	};
+    key <AE08>	{ [    aacute,          8,     asterisk, dead_abovedot ] };
+    key <AE09>	{ [    iacute,          9,    parenleft,   dead_acute ]	};
+    key <AE10>	{ [    eacute,          0,   parenright, dead_doubleacute ] };
+    key <AE11>	{ [     uacute,    minus,   underscore, dead_diaeresis ] };
+    key <AE12>	{ [dead_acute, dead_caron,  equal, plus ]	};
+
+    key <AD01>	{ [         q      , Q              , singlelowquotemark   , NoSymbol ]	};
+    key <AD02>	{ [         w      , W              , leftsinglequotemark  , Nosymbol ]	};
+    key <AD03>	{ [         e      , E              , rightsinglequotemark , EuroSign ]	};
+    key <AD04>	{ [         r      , R              , NoSymbol             , NoSymbol ]	};
+    key <AD05>	{ [         t      , T              , NoSymbol             , NoSymbol ]	};
+    key <AD06>	{ [         y      , Y              , NoSymbol             , NoSymbol ]	};
+    key <AD07>	{ [         u      , U              , NoSymbol             , NoSymbol ]	};
+    key <AD08>	{ [         i      , I              , NoSymbol             , NoSymbol ]	};
+    key <AD09>	{ [         o      , O              , NoSymbol             , NoSymbol ]	};
+    key <AD10>	{ [         p      , P              , NoSymbol             , NoSymbol ]	};
+    key <AD11>	{ [    bracketleft , braceleft      , NoSymbol     , division ]	};
+    key <AD12>	{ [ bracketright   , braceright     , NoSymbol     , multiply ]	};
+
+    key <AC01>	{ [         a      , A              , asciitilde   , NoSymbol ]	};
+    key <AC02>	{ [         s      , S              , ssharp       , NoSymbol ]	};
+    key <AC03>	{ [         d      , D              , dcaron       , Dcaron		]	};
+    key <AC04>	{ [         f      , F              , bracketleft  , NoSymbol ]	};
+    key <AC05>	{ [         g      , G              , bracketright , NoSymbol ]	};
+    key <AC06>	{ [         h      , H              , leftarrow    , NoSymbol ]	};
+    key <AC07>	{ [         j      , J              , downarrow    , NoSymbol ]	};
+    key <AC08>	{ [         k      , K              , uparrow      , NoSymbol ]	};
+    key <AC09>	{ [         l      , L              , rightarrow   , NoSymbol ]	};
+    key <AC10>	{ [semicolon         , colon       , dollar       , NoSymbol ]	};
+    key <AC11>	{ [   apostrophe       , quotedbl         , apostrophe , NoSymbol ]	};
+    key <AC12>	{ [  EuroSign      , dead_diaeresis , NoSymbol     , NoSymbol ]	};
+    key <BKSL>	{ [    ncaron   , bar            , backslash        , plusminus ]	};
+
+    key <LSGT>	{ [ backslash  , bar            , slash                , NoSymbol ]	};
+    key <AB01>	{ [         z  , Z              , doublelowquotemark   , NoSymbol ]	};
+    key <AB02>	{ [         x  , X              , leftdoublequotemark  , Nosymbol ]	};
+    key <AB03>	{ [         c  , C              , rightdoublequotemark , NoSymbol ]	};
+    key <AB04>	{ [         v  , V              , at                   , NoSymbol ]	};
+    key <AB05>	{ [         b  , B              , braceleft            , NoSymbol ]	};
+    key <AB06>	{ [         n  , N              , endash               , NoSymbol ]	};
+    key <AB07>	{ [         m  , M              , emdash               , NoSymbol ]	};
+    key <AB08>	{ [     comma  , less           , guillemotleft        , NoSymbol ]	};
+    key <AB09>	{ [    period  , greater        , guillemotright       , NoSymbol ]	};
+    key <AB10>	{ [     slash  , question       , question             , NoSymbol ]	};
+
+    key <SPCE>  { [     space  , space          , space         , space ] };
+
+
+    include "level3(ralt_switch)"
+};
