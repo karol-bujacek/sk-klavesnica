@@ -23,7 +23,7 @@ xkb_symbols "sk-programmer" {
     key <AD04>	{ [         r      , R              , NoSymbol             , NoSymbol ]	};
     key <AD05>	{ [         t      , T              , NoSymbol             , NoSymbol ]	};
     key <AD06>	{ [         y      , Y              , NoSymbol             , NoSymbol ]	};
-    key <AD07>	{ [         u      , U              , NoSymbol             , NoSymbol ]	};
+    key <AD07>	{ [         u      , U              , uacute               , Uacute ]	};
     key <AD08>	{ [         i      , I              , NoSymbol             , NoSymbol ]	};
     key <AD09>	{ [         o      , O              , NoSymbol             , NoSymbol ]	};
     key <AD10>	{ [         p      , P              , NoSymbol             , NoSymbol ]	};
